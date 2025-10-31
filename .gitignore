@@ -1,0 +1,38 @@
+# 개인정보 보호를 위한 파일 제외
+# Exclude files containing personal information
+
+# 실제 학생 데이터 CSV 파일 (샘플 제외)
+test_result_excel_*.csv
+*_result_*.csv
+!sample_data.csv
+
+# 실제 답안지 이미지 폴더
+scanData/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Gradio
+flagged/
+
